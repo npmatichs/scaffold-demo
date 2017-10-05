@@ -1,20 +1,21 @@
 {
-  "name": "scaffolding",
+  "name": "scaffold-demo",
   "version": "1.0.0",
-  "description": "NodeJS Admin Panel Scaffold system",
+  "description": "Demo of scaffolding system",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npmatichs/scaffolding.git"
+    "url": "git+https://github.com/npmatichs/scaffold-demo.git"
   },
   "keywords": [
     "nodejs",
     "scaffolding",
     "express",
-    "postgresql"
+    "postgresql",
+    "demo"
   ],
   "author": "wickd",
   "license": "ISC",
