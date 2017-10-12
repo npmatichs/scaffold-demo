@@ -5,9 +5,14 @@ require('env/loader').setEnv(require('./.env'));
 let env = require('env');
 let bodyParser = require('body-parser');
 let baseDir = require('basedir');
+let autoloader = require('use/autoloader');
+let packagejson = require('./package');
 
 // set globaly base directory throuh the module.
 baseDir.set(__dirname);
+
+autoloader.setBasePath(__dirname);
+autoloader.setNamespaces(packagejson['namespaces']);
 
 // routes
 let api = require('./demo/routes/api');

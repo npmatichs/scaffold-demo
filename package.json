@@ -33,6 +33,14 @@
     "express-session": "^1.15.6",
     "jsonwebtoken": "^8.0.1",
     "lodash": "^4.17.4",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "use": "git+http://github.com/npmatichs/use.git#2.2"
+  },
+  "namespaces" : 
+	{
+    "psr-4" : {
+        "App\\" : "app\\",
+        "Demo\\" : "demo\\"
+    }
   }
 }
