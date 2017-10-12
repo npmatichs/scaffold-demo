@@ -28,7 +28,7 @@ app.use(session({
 }));
 
 app.use('/api', api);
-app.use('/', web);
+app.use('/', [ templated ], web);
 
 app.listen(env('port', 8080), () => {
     console.log(`Demo runs on http://localhost:${env('port', 8080)}/ !`);
